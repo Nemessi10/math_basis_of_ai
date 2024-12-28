@@ -109,3 +109,5 @@ A custom neural network implementation with the following methods:
 
 ## Conclusion
 This project demonstrates the use of various machine learning models for predicting restaurant revenues, with a focus on gradient boosting methods and neural networks. By following this documentation, even someone unfamiliar with the code can set up, train, and evaluate the models, as well as make predictions on new data.
+
+[Presentation](https://www.canva.com/design/DAGaC1wrSQE/S9lyfW4jR6v9C1FhqK8F9Q/edit?utm_content=DAGaC1wrSQE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
