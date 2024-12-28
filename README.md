@@ -41,7 +41,7 @@ The function `merge_and_process_data` merges the training and test data and appl
 Various machine learning models are trained and evaluated:
 - **Random Forest**, **XGBoost**, **LightGBM**, **CatBoost**: Popular gradient boosting and ensemble models for regression tasks.
 - **Cross-validation**: The models are trained using 4-fold cross-validation. The `train_cv` function evaluates the models using RMSE (Root Mean Squared Error).
-- **Neural Network**: A custom neural network class is implemented using a basic feedforward structure with ReLU and Sigmoid activation functions.
+- **Neural Network**: A custom neural network class is implemented using a basic feedforward structure with ReLU activation function.
 
 ### 4. Model Evaluation
 The evaluation process involves:
@@ -53,7 +53,7 @@ After training the models, the final predictions are made using a custom neural 
 
 ### 6. Custom Neural Network
 The `CustomNeuralNetwork` class implements a simple neural network with the following features:
-- **Sigmoid and ReLU activation functions**: For forward and backward propagation.
+- **ReLU activation function**: For forward propagation.
 - **Gradient descent**: Used for optimizing the weights during the backward pass.
 - **Training and prediction**: The network is trained using the `fit` method and makes predictions using the `predict` method.
 
@@ -89,7 +89,7 @@ Calculates RMSE between the true and predicted values.
 ### `CustomNeuralNetwork` Class
 A custom neural network implementation with the following methods:
 - **`__init__`**: Initializes the network with random weights and biases.
-- **`sigmoid` and `relu`**: Activation functions.
+- ** `relu`**: Activation function.
 - **`forward`**: Forward pass through the network.
 - **`backward`**: Backward pass using gradient descent.
 - **`fit`**: Trains the network.
